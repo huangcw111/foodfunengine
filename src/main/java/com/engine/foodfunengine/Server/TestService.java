@@ -6,6 +6,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.InputStream;
 
 public interface TestService  {
-	String test(String fileName, MultipartFile fileData, String userAccount);
 
+	String test();
 }
